@@ -71,10 +71,9 @@ nav a{
 }
 #banner-text{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    padding: 10px;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
 
 .primary-button {
