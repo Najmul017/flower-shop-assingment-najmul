@@ -114,6 +114,20 @@ input[type=text] {
     cursor: pointer;
   }
 
+  
+ /* Social media section */
+
+ .social-img-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px  120px;
+    padding-top: 20px;
+ }
+ .img-social{
+    width: 240px;
+ }
+
+
 
 /* Footer Css start */
 .footer {
