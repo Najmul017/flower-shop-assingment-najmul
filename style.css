@@ -6,7 +6,7 @@
 
 .banner-container {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -17,11 +17,11 @@
     width: 50%;
     padding-left: 80px;
     color: #272727 font-size: 80px;
-    
-
 }
-.banner-img{
+
+.banner-img {
     width: 50%;
+    padding-left: 20px;
 }
 
 .banner-description {
@@ -53,36 +53,65 @@
     padding-top: 50px;
     padding-bottom: 0px;
 }
+
 /* Banner Section Css end */
+/* Discount Section CSS */
+.discount-container{
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    width: 100%;
+    justify-content: safe;
+    align-items: center;
+}
+.discount-heading{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.discount-container{
+    margin-top: 40px;
+}
+.discount-detail{
+    text-align: center;
+    padding-left: 40px;
+    width: 50%;
+}
+.discount-image{
+    padding: 40px;
+}
 
 /* Footer Css start */
-.footer{
-    
+.footer {
     width: 100%;
     margin: auto;
     height: 50vh;
-   background: #111010;
+    background: #111010;
 }
-.footer-title{
+
+.footer-title {
     margin-top: 40px;
     font-size: 48px;
     padding-top: 50px;
     text-align: center;
 }
-.footer-description{
+
+.footer-description {
     padding-top: 10px;
     text-align: center;
-font-size: 18px;
-line-height: 30px;
+    font-size: 18px;
+    line-height: 30px;
     color: rgba(255, 255, 255, 0.90);
 }
-.footer-head{
+
+.footer-head {
     color: #E55473;
 }
-.footer-title{   
+
+.footer-title {
     color: #FFFFFF;
-    
 }
-.copy-right{
+
+.copy-right {
     color: rgba(255, 255, 255, 0.40);
 }
