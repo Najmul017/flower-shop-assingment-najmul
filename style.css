@@ -3,6 +3,39 @@
     padding: 0px;
     font-family: 'Lato';
 }
+/* Navigation bar styles */
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #E55473;
+    padding: 15px 30px;
+    color: white;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+}
+.nav-title{
+    font-size: 35px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav a{
+    font-weight: 800;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 17px;
+    color: #FFF;
+}
+.nav-title-part{
+    color: black;
+}
+
+
 /* Banner section styles */
 .banner-container {
     display: flex;
