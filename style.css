@@ -3,7 +3,7 @@
     padding: 0px;
     font-family: 'Lato';
 }
-
+/* Banner section styles */
 .banner-container {
     display: flex;
     height: 90vh;
@@ -47,7 +47,6 @@
     border: 0px solid;
    
 }
-
 .banner-photo {
     width: 430px;
     height: 487px;
@@ -55,9 +54,12 @@
     padding-top: 50px;
     padding-bottom: 0px;
 }
+/* Featured styles */
 
-/* Banner Section Css end */
-/* Discount Section CSS */
+
+
+/* Banner Section Style end */
+/* Discount Section Style */
 .discount-container{
     border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
